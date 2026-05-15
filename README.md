@@ -71,7 +71,7 @@ pip install opencv-python mediapipe pyautogui numpy
 2. Run the script:
    
 ```bash
-cd ~/Downloads/gesture_control-4.py
+cd HandTrack-MacControl
 python3 gesture_control-4.py
 
 ```
