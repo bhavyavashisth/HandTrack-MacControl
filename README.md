@@ -34,31 +34,44 @@
 
 ## 🚀 Setup & Installation
 
-### 1. Prerequisites
-You must have **Python 3.11** installed. Newer versions like 3.14 are not yet compatible with MediaPipe.
+### 1️⃣ Prerequisites
+This project requires **Python 3.11**. Newer versions (like 3.14) are not currently compatible with the MediaPipe library.
 
-### 2. Create Environment
+### 2️⃣ Create a Virtual Environment
+It is highly recommended to use a virtual environment to keep your dependencies organized.
+
 ```bash
+#clone the repo.
+git clone https://github.com/bhavyavashisth/HandTrack-MacControl.git
+# Create the environment
 python3.11 -m venv gesture_env
+
+# Activate the environment
 source gesture_env/bin/activate
 
 ```
-### 3. Install Dependencies
+### 3️⃣ Install Dependencies
+
+While your environment is active, install the necessary AI and automation libraries:
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt
-
+pip install opencv-python mediapipe pyautogui numpy
 ```
-4. System Permissions
+### 4️⃣. System Permissions
+  ```
+ For the script to control your mouse, you must manually grant permissions in System Settings > Privacy & Security:
 
-        For the mouse to move, macOS requires you to grant permissions:
-        📸Camera: For hand tracking.
-        Accessibility: Go to System Settings > Privacy & Security > Accessibility and toggle Terminal (or VS Code) ON.
+    Camera: Allow your Terminal to access the camera for hand tracking.
+
+    Accessibility: Toggle Terminal (or VS Code) ON. This allows the script to move the cursor and click.
+```
 
 🛠️ Usage
 1. Open your terminal and navigate to your project folder.
 2. Run the script:
+   
 ```bash
+cd ~/Downloads/gesture_control-4.py
 python3 gesture_control-4.py
 
 ```
