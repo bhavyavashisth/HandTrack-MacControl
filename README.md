@@ -51,17 +51,15 @@ pip install -r requirements.txt
 ```
 4. System Permissions
 
-For the mouse to move, macOS requires you to grant permissions:
-
-    Camera: For hand tracking.
-
-    Accessibility: Go to System Settings > Privacy & Security > Accessibility and toggle Terminal (or VS Code) ON.
+        For the mouse to move, macOS requires you to grant permissions:
+        📸Camera: For hand tracking.
+        Accessibility: Go to System Settings > Privacy & Security > Accessibility and toggle Terminal (or VS Code) ON.
 
 🛠️ Usage
 1. Open your terminal and navigate to your project folder.
 2. Run the script:
 ```bash
-python3 AetherHUD.py
+python3 gesture_control-4.py
 
 ```
 3. Press 'Q' while focusing on the HUD window to exit.
