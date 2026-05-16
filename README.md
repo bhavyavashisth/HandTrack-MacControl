@@ -35,7 +35,7 @@
 ## 🚀 Setup & Installation
 
 ### 1️⃣ Prerequisites
-This project requires **Python 3.11**. Newer versions (like 3.14) are not currently compatible with the MediaPipe library.
+This project requires **Python**.
 
 ### 2️⃣ Create a Virtual Environment
 It is highly recommended to use a virtual environment to keep your dependencies organized.
@@ -46,19 +46,25 @@ git clone https://github.com/bhavyavashisth/HandTrack-MacControl.git
 # Create the environment
 python3.11 -m venv gesture_env
 
-# Activate the environment
-source gesture_env/bin/activate
-
 ```
+Activate the enviourment with-
+
+For mac:
+
+`source gesture_env/bin/activate`
+
+For windows:
+
+`./gesture_env/Scripts/Activate.ps1`
+
 ### 3️⃣ Install Dependencies
 
 While your environment is active, install the necessary AI and automation libraries:
 ```bash
-pip install --upgrade pip
-pip install opencv-python mediapipe pyautogui numpy
+pip install -r requirements.txt
 ```
 ### 4️⃣. System Permissions
-  ```
+```
  For the script to control your mouse, you must manually grant permissions in System Settings > Privacy & Security:
 
     Camera: Allow your Terminal to access the camera for hand tracking.
@@ -72,7 +78,7 @@ pip install opencv-python mediapipe pyautogui numpy
    
 ```bash
 cd HandTrack-MacControl
-python3 gesture_control-4.py
+python3 main.py
 
 ```
 3. Press 'Q' while focusing on the HUD window to exit.
