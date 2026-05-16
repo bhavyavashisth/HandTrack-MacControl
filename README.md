@@ -2,7 +2,7 @@
 # 🖱️ Mac Air Mouse Control (Cyberpunk HUD v4)
 
 [![Platform: macOS](https://img.shields.io/badge/Platform-macOS-000000?logo=apple&logoColor=white)](https://apple.com)
-[![Python: 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Python: 3.14](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Control your Mac in the air.** This project turns your webcam into a high-precision gesture tracker, allowing you to move the cursor, click, scroll, and manage windows without ever touching your desk.
